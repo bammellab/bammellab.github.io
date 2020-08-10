@@ -52,7 +52,9 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
-  - Testing: Testing.md
+  - Videos: YoutubeVideos.md
+    - Video1: Video1.md
+    - Video2: Video2.md
   - Uploading: Uploading.md
   - PDB Notes: PDBnotes.md
   - Special Structures: Special-Structures.md
