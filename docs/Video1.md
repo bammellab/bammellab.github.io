@@ -2,9 +2,10 @@ Video 1
 ========
 
 This is the [first video][4] that was recorded
-of the `PdbViewer` example program.  It shows PDB molecule 
-structures in a _SpaceFill_ representation.  
-The PDB entry list is shown below.  More videos are available
+of the `PdbViewer` example program.  It shows 
+Protein Data Bank (PDB) molecule 
+structures in a _SpaceFill_ representation.  The PDB entry 
+list is shown below.  More videos are available
 for viewing on the [Bammel Lab][3] Youtube channel.
 
 [1]:PdbViewer link TBD
