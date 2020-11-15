@@ -1,7 +1,7 @@
 
 # Project information
 site_name: 'Bammellab'
-site_description: 'Visualization of structures on the Android Platform'
+site_description: 'Visualization on the Android Platform'
 site_author: 'Jim Andreas'
 site_url: 'https://bammellab.github.io/'
 
@@ -15,7 +15,8 @@ copyright: 'Copyright &copy; 2020 Jim Andreas'
 
 # Configuration
 theme:
-  name: 'material'
+  name: null
+  custom_dir: material
 
   # 404 page
   static_templates:
@@ -28,8 +29,8 @@ theme:
   # Default values, taken from mkdocs_theme.yml
   language: en
   features:
-    - tabs
-    #- instant
+    - navigation.tabs
+
   palette:
     scheme: default
     primary: indigo
@@ -41,17 +42,17 @@ theme:
 # Extensions
 markdown_extensions:
   - admonition
-  - codehilite:
-      guess_lang: false
   - toc:
       permalink: true
-  - markdown.extensions.def_list
-  - markdown.extensions.footnotes
-  - markdown.extensions.meta
+  - def_list
+  - footnotes
+  - meta
 
 # Page tree
 nav:
   - Home: 'index.md'
+  - Android Apps:
+      - 'GamepadTest.md'
   - Videos:
     - Intro: 'YoutubeVideos.md'
     - Video1: 'Video1.md'
