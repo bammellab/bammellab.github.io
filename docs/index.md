@@ -1,23 +1,17 @@
 Bammellab
 ==============
 
-Bammellab github IO web page source
+The Bammellab project explores visualization design and tools aimed at
+Molecular Biology.
 
-Status of the repo:
----------------
-Initial text.
+## Current projects:
 
-Mkdocs publishing notes
---------------
-The build_and_upload_docs bash script must be run from the docs directory.
+* An Android application to visualize the molecules described in the world-famous
+[Molecules of the Month] feature is in development.
 
-Acknowledgements
---------------
-This web page uses build technology kindly provided by:
+* An Android application that demonstrates and tests functions of Gamepad controllers
+is released to Google Play.
 
-[mkdocs][1]
 
-[mkdocs-material][2]
+[Molecules of the Month]: https://pdb101.rcsb.org/
 
-[1]:https://github.com/mkdocs/mkdocs
-[2]:https://github.com/squidfunk/mkdocs-material

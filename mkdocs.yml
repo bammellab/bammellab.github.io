@@ -15,8 +15,7 @@ copyright: 'Copyright &copy; 2020 Jim Andreas'
 
 # Configuration
 theme:
-  name: null
-  custom_dir: material
+  name: material
 
   # 404 page
   static_templates:
@@ -52,7 +51,7 @@ markdown_extensions:
 nav:
   - Home: 'index.md'
   - Android Apps:
-      - 'GamepadTest.md'
+      - 'GamepadTestApplication.md'
   - Videos:
     - Intro: 'YoutubeVideos.md'
     - Video1: 'Video1.md'
@@ -60,6 +59,7 @@ nav:
   - Uploading: 'Uploading.md'
   - PDB Notes: 'PDBnotes.md'
   - Special Structures: 'Special-Structures.md'
+  - Building: 'BuildingTheWebPage.md'
 
 
 # Notes
