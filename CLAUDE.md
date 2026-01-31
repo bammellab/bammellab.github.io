@@ -1,0 +1,32 @@
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+## Project Overview
+
+This is the GitHub Pages documentation site for Bammellab, focused on molecular visualization on Android. It uses **Hugo** with the **Hugo-Octopress** theme to generate a static site deployed to the `gh-pages` branch.
+
+## Build and Deploy
+
+- **Build docs locally**: `hugo server` (runs dev server at localhost:1313)
+- **Build for production**: `hugo` (outputs to `public/`)
+- **Deploy to GitHub Pages**: build with `hugo` and push `public/` to the `gh-pages` branch
+- **Gradle** (6.5.1) is present for Kotlin/PDB parser subprojects but is not used for the docs site itself
+
+## Architecture
+
+- `hugo.toml` — Site configuration, navigation menu, theme settings
+- `content/` — All markdown content pages with Hugo front matter
+- `static/img/` — Image assets
+- `themes/Hugo-Octopress/` — Theme (git submodule)
+- `build.gradle` / `settings.gradle` — Gradle config for Kotlin subprojects (group: `com.kotmol.kotmolpdbparser`)
+
+## Content Structure
+
+Pages document PdbViewer Android app demos, PDB molecular structure notes, special/unusual PDB files, and the GamepadTest Android app. Video pages contain extensive lists of PDB entry IDs with links to RCSB.
+
+## Key Details
+
+- Theme: Hugo-Octopress (requires Hugo >= 0.146.1)
+- Site URL: https://bammellab.github.io/
+- Content changes go in `content/*.md`; navigation changes go in `hugo.toml` under `[menu]`

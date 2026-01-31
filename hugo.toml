@@ -1,0 +1,45 @@
+baseURL = "https://bammellab.github.io/"
+languageCode = "en-us"
+title = "Bammellab"
+theme = "Hugo-Octopress"
+[pagination]
+  pagerSize = 6
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  author = "Jim Andreas"
+  subtitle = "Visualization on the Android Platform"
+  sidebar_about_description = "Exploring visualization design and tools aimed at Molecular Biology."
+  sidebar_github = "https://github.com/bammellab"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Android Apps"
+    url = "/gamepad-test/"
+    weight = 2
+  [[menu.main]]
+    name = "Videos"
+    url = "/youtube-videos/"
+    weight = 3
+  [[menu.main]]
+    name = "PDB Notes"
+    url = "/pdb-notes/"
+    weight = 4
+  [[menu.main]]
+    name = "Special Structures"
+    url = "/special-structures/"
+    weight = 5
+  [[menu.main]]
+    name = "Building"
+    url = "/building/"
+    weight = 6
+
+copyright = "Copyright &copy; 2020 Jim Andreas"

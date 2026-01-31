@@ -1,27 +1,21 @@
-Video 1
-========
+---
+title: "Video 1"
+date: 2020-01-01
+draft: false
+slug: "video1"
+---
 
-This is the [first video][4] that was recorded
-of the `PdbViewer` example program.  It shows 
-Protein Data Bank (PDB) molecule 
-structures in a _SpaceFill_ representation.  The PDB entry 
+This is the [first video](https://www.youtube.com/watch?v=o4uV4OlKsms) that was recorded
+of the `PdbViewer` example program.  It shows
+Protein Data Bank (PDB) molecule
+structures in a _SpaceFill_ representation.  The PDB entry
 list is shown below.  More videos are available
-for viewing on the [Bammel Lab][3] Youtube channel.
+for viewing on the [Bammel Lab](https://www.youtube.com/channel/UCMGbrOQM-3LDv_sYOrm4KuQ) Youtube channel.
 
-[1]:PdbViewer link TBD
-
-[2]:https://pdb101.rcsb.org/
-
-[3]:https://www.youtube.com/channel/UCMGbrOQM-3LDv_sYOrm4KuQ
-
-[4]:https://www.youtube.com/watch?v=o4uV4OlKsms
-
-[5]:https://www.rcsb.org/
-
-The following lists the [RCSB PDB][5] molecule names displayed
+The following lists the [RCSB PDB](https://www.rcsb.org/) molecule names displayed
 in this video.  As previously noted, each of these molecules
 was included in the the monthly _*Molecule Of The Month*_
-[Pdb 101][2] online publication.
+[Pdb 101](https://pdb101.rcsb.org/) online publication.
 
     "148l",
     "1a0h",
