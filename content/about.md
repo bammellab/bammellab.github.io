@@ -13,3 +13,10 @@ The Bammellab project explores visualization design and tools aimed at Molecular
 
 * [GitHub](https://github.com/bammellab)
 * [Twitter / X](https://x.com/Bammellab)
+
+## Building the Web Page
+
+This web page uses build technology kindly provided by:
+
+* [Hugo](https://gohugo.io/)
+* [Hugo-Octopress](https://github.com/parsiya/Hugo-Octopress)

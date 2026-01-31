@@ -1,0 +1,19 @@
+{{ partial "header.html" . }}
+
+{{ $about := .Site.GetPage "/about" }}
+<div id="main">
+  <div id="content">
+    <div>
+      <article class="hentry" role="article">
+        <div class="entry-content">
+          {{ with $about }}
+            {{ .Content }}
+          {{ end }}
+        </div>
+      </article>
+    </div>
+    {{ partial "sidebar.html" . }}
+  </div>
+</div>
+
+{{ partial "footer.html" . }}

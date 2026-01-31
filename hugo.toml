@@ -18,25 +18,17 @@ theme = "Hugo-Octopress"
 
 [menu]
   [[menu.main]]
-    name = "Android Apps"
-    url = "/gamepad-test/"
+    name = "MotmBrowser"
+    url = "/motm-browser/"
     weight = 1
   [[menu.main]]
-    name = "Videos"
-    url = "/youtube-videos/"
+    name = "SimpleMusicPlayer"
+    url = "/simple-music-player/"
+    weight = 2
+  [[menu.main]]
+    name = "GamepadTest"
+    url = "/gamepad-test/"
     weight = 3
-  [[menu.main]]
-    name = "PDB Notes"
-    url = "/pdb-notes/"
-    weight = 4
-  [[menu.main]]
-    name = "Special Structures"
-    url = "/special-structures/"
-    weight = 5
-  [[menu.main]]
-    name = "Building"
-    url = "/building/"
-    weight = 6
   [[menu.main]]
     name = "About"
     url = "/about/"
