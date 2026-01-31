@@ -13,10 +13,15 @@ This is the GitHub Pages documentation site for Bammellab, focused on molecular 
 - **Deploy to GitHub Pages**: build with `hugo` and push `public/` to the `gh-pages` branch
 - **Gradle** (6.5.1) is present for Kotlin/PDB parser subprojects but is not used for the docs site itself
 
+## Git / Push
+
+- Remote: `https://bammellab@github.com/bammellab/bammellab.github.io.git`
+- Push with user `bammellab`: `git push origin master`
+
 ## Architecture
 
 - `hugo.toml` — Site configuration, navigation menu, theme settings
-- `content/` — All markdown content pages with Hugo front matter
+- `content/` — All markdown content pages with Hugo front matter (flat structure, no subdirectories)
 - `static/img/` — Image assets
 - `themes/Hugo-Octopress/` — Theme (git submodule)
 - `build.gradle` / `settings.gradle` — Gradle config for Kotlin subprojects (group: `com.kotmol.kotmolpdbparser`)
@@ -29,4 +34,5 @@ Pages document PdbViewer Android app demos, PDB molecular structure notes, speci
 
 - Theme: Hugo-Octopress (requires Hugo >= 0.146.1)
 - Site URL: https://bammellab.github.io/
+- Goldmark renderer has `unsafe = true` — raw HTML in markdown content is rendered as-is
 - Content changes go in `content/*.md`; navigation changes go in `hugo.toml` under `[menu]`
