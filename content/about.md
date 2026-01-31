@@ -4,9 +4,6 @@ date: 2020-01-01
 draft: false
 slug: "about"
 ---
-
-## Bammellab
-
 <img src="/img/BammellabLogoLightMode.png" alt="Bammellab logo">
 
 The Bammellab project explores visualization design and tools aimed at Molecular Biology.
