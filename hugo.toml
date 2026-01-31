@@ -18,13 +18,9 @@ theme = "Hugo-Octopress"
 
 [menu]
   [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
-  [[menu.main]]
     name = "Android Apps"
     url = "/gamepad-test/"
-    weight = 2
+    weight = 1
   [[menu.main]]
     name = "Videos"
     url = "/youtube-videos/"
@@ -41,5 +37,9 @@ theme = "Hugo-Octopress"
     name = "Building"
     url = "/building/"
     weight = 6
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 7
 
 copyright = "Copyright &copy; 2020 Jim Andreas"
