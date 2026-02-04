@@ -6,7 +6,7 @@ aliases:
   - /about/
 ---
 
-<img src="/img/BammellabLogoLightMode.png" alt="Bammellab logo">
+<img src="/img/BammellabLogoDarkMode.png" alt="Bammellab logo">
 
 The Bammellab project explores visualization design and tools aimed at Molecular Biology.
 
