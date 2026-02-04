@@ -10,7 +10,8 @@ This is the GitHub Pages documentation site for Bammellab, focused on molecular 
 
 - **Build docs locally**: `hugo server` (runs dev server at localhost:1313)
 - **Build for production**: `hugo` (outputs to `public/`)
-- **Deploy to GitHub Pages**: build with `hugo` and push `public/` to the `gh-pages` branch
+- **Build optimized**: `hugo --gc --minify` (garbage collect and minify)
+- **Deploy**: Automatic via GitHub Actions on push to `master` (see `.github/workflows/hugo.yml`)
 - **Gradle** (6.5.1) is present for Kotlin/PDB parser subprojects but is not used for the docs site itself
 
 ## Git / Push
@@ -22,6 +23,7 @@ This is the GitHub Pages documentation site for Bammellab, focused on molecular 
 
 - `hugo.toml` — Site configuration, navigation menu, theme settings
 - `content/` — All markdown content pages with Hugo front matter (flat structure, no subdirectories)
+- `layouts/` — Custom layout overrides (e.g., `index.html` for home page)
 - `static/img/` — Image assets
 - `themes/Hugo-Octopress/` — Theme (git submodule)
 - `build.gradle` / `settings.gradle` — Gradle config for Kotlin subprojects (group: `com.kotmol.kotmolpdbparser`)
