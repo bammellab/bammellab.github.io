@@ -2,7 +2,8 @@
 title: "GamepadTest Android App"
 date: 2020-01-01
 draft: false
-slug: "gamepad-test"
+aliases:
+  - /gamepad-test/
 ---
 
 The GamepadTest Android application was developed in part to

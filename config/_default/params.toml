@@ -1,0 +1,17 @@
+# Doks settings
+[doks]
+  # Site title
+  title = "Bammellab"
+
+  # Site description
+  description = "Visualization on the Android Platform"
+
+  # Enable dark mode toggle
+  darkMode = true
+
+  # Footer text
+  footer = "Copyright 2020 Jim Andreas"
+
+# Social links
+[doks.social]
+  github = "https://github.com/bammellab"

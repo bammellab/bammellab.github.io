@@ -1,0 +1,21 @@
+{
+  "name": "bammellab.github.io",
+  "version": "1.0.0",
+  "description": "Bammellab - Visualization on the Android Platform",
+  "scripts": {
+    "dev": "hugo server --disableFastRender --noHTTPCache",
+    "build": "hugo --gc --minify",
+    "preview": "hugo server --disableFastRender --noHTTPCache --buildDrafts --buildFuture"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://bammellab@github.com/bammellab/bammellab.github.io.git"
+  },
+  "keywords": [],
+  "author": "Jim Andreas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bammellab/bammellab.github.io/issues"
+  },
+  "homepage": "https://bammellab.github.io/"
+}

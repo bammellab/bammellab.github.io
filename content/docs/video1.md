@@ -2,7 +2,8 @@
 title: "Video 1"
 date: 2020-01-01
 draft: false
-slug: "video1"
+aliases:
+  - /video1/
 ---
 
 This is the [first video](https://www.youtube.com/watch?v=o4uV4OlKsms) that was recorded

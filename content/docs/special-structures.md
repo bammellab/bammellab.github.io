@@ -2,7 +2,8 @@
 title: "Special Structures"
 date: 2020-01-01
 draft: false
-slug: "special-structures"
+aliases:
+  - /special-structures/
 ---
 
 This is a photo log of special residues found from the PDB101 selection of atoms.

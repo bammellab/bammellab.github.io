@@ -2,7 +2,8 @@
 title: "Video 2"
 date: 2020-01-02
 draft: false
-slug: "video2"
+aliases:
+  - /video2/
 ---
 
 This is the [second video](https://www.youtube.com/watch?v=t9sH8P5b9vA) that was recorded

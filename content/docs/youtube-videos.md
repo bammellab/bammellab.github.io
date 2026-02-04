@@ -2,7 +2,8 @@
 title: "Youtube Videos"
 date: 2020-01-01
 draft: false
-slug: "youtube-videos"
+aliases:
+  - /youtube-videos/
 ---
 
 The `PdbViewer` example program shows PDB molecule

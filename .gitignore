@@ -13,6 +13,11 @@ build
 # Hugo
 public/
 resources/
+.hugo_build.lock
+
+# Node.js
+node_modules/
+.npm/
 
 # claude
 .claude
